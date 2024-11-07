@@ -1,0 +1,9 @@
+@PointClass base(Base) size(-16 -16 -32, 16 16 32) color(255 255 0) = player_start : "player_start"
+[
+    health(int) : "health" : 100
+]
+
+@PointClass base(Base) size(-16 -16 -16, 16 16 16) color(255 255 0) = small_enemy : "small_enemy"
+[
+    health(int) : "health" : 20
+]
