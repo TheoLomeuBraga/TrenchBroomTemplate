@@ -1,4 +1,4 @@
-@PointClass base(Base) size(-16 -16 -32, 16 16 32) color(255 255 0) = player_start : "player_start"
+@PointClass base(Base) size(-16 -16 -32, 16 16 32) color(255 255 0) model( { "path": ":entities/player_start.glb", "scale": "15" } ) = player_start : "player_start"
 [
     health(int) : "health" : 100
 ]
